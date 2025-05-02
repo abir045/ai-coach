@@ -1,12 +1,58 @@
-# React + Vite
+# AI Coach
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- AI Coach is a web-based application designed to provide users with personalized coaching experiences using AI technologies. Built with React and Vite, this project offers a fast and responsive user interface, ensuring seamless interactions and real-time feedback.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-React + Vite Integration: Utilizes Vite for rapid development and optimized builds.
 
-## Expanding the ESLint configuration
+-ESLint Configuration: Ensures code quality and consistency across the project.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Deployed on Vercel: Accessible at: ai-coach-iota.vercel.app
+
+## Project Structure
+
+```
+ai-coach/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+
+
+```
+
+## Installation
+
+```
+git clone https://github.com/abir045/ai-coach.git
+cd ai-coach
+npm install
+
+```
+
+## Run the Development Server
+
+```
+npm run dev
+```
+
+## Dependencies
+
+- "react": "^19.0.0",
+- "react-dom": "^19.0.0",
+- "react-icons": "^5.5.0",
+- "tailwindcss": "^4.1.5"
+
+## Screenshot
+
+![AI Coach Screenshot](./src/assets/screenshot.png)
