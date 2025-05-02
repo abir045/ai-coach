@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="md:flex-row  lg:flex items-center container mx-auto px-20 mt-[100px] ">
         {/* left */}
         <div className="w-full">
-          <h1 className="text-[80px] font-medium ">
+          <h1 className="md:text-[80px] text-[48px] font-medium ">
             Your AI-Powered Sales Coach
           </h1>
           <div className="md:flex items-center gap-[68px] ">
