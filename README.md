@@ -8,7 +8,9 @@
 
 -ESLint Configuration: Ensures code quality and consistency across the project.
 
-- Deployed on Vercel: Accessible at: ai-coach-iota.vercel.app
+## Live Link
+
+- Deployed on Vercel: [ai-coach-iota.vercel.app](https://ai-coach-iota.vercel.app/)
 
 ## Project Structure
 
